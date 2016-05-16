@@ -10,7 +10,6 @@ public class Post
    private String username;
    private long timestamp;
    private int likes;
-
    
    public Post(String username){
        this.username = username;
@@ -46,7 +45,7 @@ public class Post
     public String getUsername(){
         return username;
     }
-    
+        
     /**
      * Metodo para pasar el tiempo a minutos y segundos.
      */
@@ -70,7 +69,6 @@ public class Post
         info += timeString(time);
         info += "=====================\n" + "\n";
         info += "_____________________\nLikes: " + likes + "\n=====================\n\n";
-        
         System.out.println(info);
     }
 }

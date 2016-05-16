@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-public class PhotoPost extends Post
+public class PhotoPost extends PostComment
 {
     private String filename;
     private String caption;
