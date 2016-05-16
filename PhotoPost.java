@@ -4,6 +4,7 @@ public class PhotoPost extends Post
     private String filename;
     private String caption;
 
+
     /**
      * Constructor for objects of class MessagePost
      */
@@ -27,4 +28,5 @@ public class PhotoPost extends Post
     public String getCaption(){
         return caption;
     }
+
 }
